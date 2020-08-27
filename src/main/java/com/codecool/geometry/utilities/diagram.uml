@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="718.625" y="447.0">com.codecool.geometry.shapes.Square</node>
+    <node x="1179.5" y="192.0">com.codecool.geometry.shapes.Triangle</node>
+    <node x="489.5" y="192.0">com.codecool.geometry.shapes.Circle</node>
+    <node x="530.7156862745098" y="0.0">com.codecool.geometry.shapes.Shape</node>
+    <node x="719.5" y="168.0">com.codecool.geometry.shapes.Rectangle</node>
+    <node x="949.5" y="192.0">com.codecool.geometry.shapes.RegularPentagon</node>
+    <node x="1115.9305555555557" y="447.0">com.codecool.geometry.shapes.EquilateralTriangle</node>
+    <node x="710.125" y="650.0">com.codecool.geometry.Main</node>
+    <node x="167.5" y="216.5">com.codecool.geometry.utilities.FormulaProvider</node>
+    <node x="0.0" y="399.0">com.codecool.geometry.containers.ShapeCollection</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.codecool.geometry.shapes.Rectangle" target="com.codecool.geometry.shapes.Shape">
+      <point x="0.0" y="-90.5" />
+      <point x="824.5" y="148.0" />
+      <point x="741.8823529411764" y="148.0" />
+      <point x="30.16666666666663" y="54.0" />
+    </edge>
+    <edge source="com.codecool.geometry.Main" target="com.codecool.geometry.shapes.Square">
+      <point x="0.0" y="-30.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="com.codecool.geometry.Main" target="com.codecool.geometry.containers.ShapeCollection">
+      <point x="-79.11111111111109" y="-30.0" />
+      <point x="720.0138888888889" y="630.0" />
+      <point x="78.5" y="630.0" />
+      <point x="-78.5" y="90.5" />
+    </edge>
+    <edge source="com.codecool.geometry.Main" target="com.codecool.geometry.shapes.Circle">
+      <point x="-19.77777777777783" y="-30.0" />
+      <point x="779.3472222222222" y="600.0" />
+      <point x="594.5" y="600.0" />
+      <point x="0.0" y="66.5" />
+    </edge>
+    <edge source="com.codecool.geometry.containers.ShapeCollection" target="com.codecool.geometry.shapes.Shape">
+      <point x="0.0" y="-90.5" />
+      <point x="157.0" y="374.0" />
+      <point x="154.84722222222229" y="374.0" />
+      <point x="154.84722222222229" y="138.0" />
+      <point x="621.2156862745098" y="138.0" />
+      <point x="-90.5" y="54.0" />
+    </edge>
+    <edge source="com.codecool.geometry.Main" target="com.codecool.geometry.shapes.Triangle">
+      <point x="79.11111111111109" y="-30.0" />
+      <point x="878.2361111111111" y="630.0" />
+      <point x="1364.4305555555557" y="630.0" />
+      <point x="1391.4305555555557" y="396.0" />
+      <point x="1354.5" y="374.0" />
+      <point x="70.0" y="66.5" />
+    </edge>
+    <edge source="com.codecool.geometry.shapes.Square" target="com.codecool.geometry.shapes.Rectangle">
+      <point x="40.25" y="-42.5" />
+      <point x="839.375" y="374.0" />
+      <point x="824.5" y="374.0" />
+      <point x="0.0" y="90.5" />
+    </edge>
+    <edge source="com.codecool.geometry.shapes.Circle" target="com.codecool.geometry.shapes.Shape">
+      <point x="0.0" y="-66.5" />
+      <point x="594.5" y="148.0" />
+      <point x="681.5490196078431" y="148.0" />
+      <point x="-30.16666666666663" y="54.0" />
+    </edge>
+    <edge source="com.codecool.geometry.shapes.Triangle" target="com.codecool.geometry.shapes.Shape">
+      <point x="0.0" y="-66.5" />
+      <point x="1284.5" y="128.0" />
+      <point x="862.5490196078431" y="128.0" />
+      <point x="150.83333333333337" y="54.0" />
+    </edge>
+    <edge source="com.codecool.geometry.containers.ShapeCollection" target="com.codecool.geometry.utilities.FormulaProvider">
+      <point x="104.66666666666669" y="-90.5" />
+      <point x="261.6666666666667" y="374.0" />
+      <point x="243.0" y="374.0" />
+      <point x="-75.5" y="42.0" />
+    </edge>
+    <edge source="com.codecool.geometry.shapes.EquilateralTriangle" target="com.codecool.geometry.shapes.Triangle">
+      <point x="-59.5" y="-42.5" />
+      <point x="1175.4305555555557" y="374.0" />
+      <point x="1214.5" y="374.0" />
+      <point x="-70.0" y="66.5" />
+    </edge>
+    <edge source="com.codecool.geometry.Main" target="com.codecool.geometry.shapes.RegularPentagon">
+      <point x="39.55555555555554" y="-30.0" />
+      <point x="838.6805555555555" y="610.0" />
+      <point x="1054.5" y="610.0" />
+      <point x="0.0" y="66.5" />
+    </edge>
+    <edge source="com.codecool.geometry.Main" target="com.codecool.geometry.shapes.Rectangle">
+      <point x="19.77777777777783" y="-30.0" />
+      <point x="818.9027777777778" y="600.0" />
+      <point x="912.9330065359477" y="600.0" />
+      <point x="912.9330065359477" y="374.0" />
+      <point x="894.5" y="374.0" />
+      <point x="70.0" y="90.5" />
+    </edge>
+    <edge source="com.codecool.geometry.shapes.RegularPentagon" target="com.codecool.geometry.shapes.Shape">
+      <point x="0.0" y="-66.5" />
+      <point x="1054.5" y="138.0" />
+      <point x="802.2156862745098" y="138.0" />
+      <point x="90.50000000000011" y="54.0" />
+    </edge>
+    <edge source="com.codecool.geometry.Main" target="com.codecool.geometry.utilities.FormulaProvider">
+      <point x="-39.55555555555554" y="-30.0" />
+      <point x="759.5694444444445" y="610.0" />
+      <point x="394.0" y="610.0" />
+      <point x="75.5" y="42.0" />
+    </edge>
+    <edge source="com.codecool.geometry.Main" target="com.codecool.geometry.shapes.EquilateralTriangle">
+      <point x="59.33333333333337" y="-30.0" />
+      <point x="858.4583333333334" y="620.0" />
+      <point x="1234.9305555555557" y="620.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="699.5" y="404.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
